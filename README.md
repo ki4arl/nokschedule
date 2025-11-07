@@ -1,4 +1,10 @@
 # SPOSCHEDULE - СПОРасписание (nokschedule)
+<img width="1902" height="929" alt="изображение" src="https://github.com/user-attachments/assets/1f118476-6ec0-43fa-beb8-80ec69e43aa5" />
+<img width="1897" height="944" alt="изображение" src="https://github.com/user-attachments/assets/109e08c3-795f-4f05-acb9-9ba866c25fbd" />
+
+
+
+
 
 ## Описание проекта
 
