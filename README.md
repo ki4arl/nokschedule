@@ -34,3 +34,54 @@
 ## Лицензия
 
 Приложение распространяется по лицензии [Apache License 2.0](LICENSE).
+
+## Инструкции по установке
+**1. Клонировать репозиторий**
+
+    git clone https://github.com/ki4arl/nokschedule/
+
+**2. Перейти в директорию проекта:**
+
+    cd /nokschedule
+
+**3. Настроить файл окружения .env в backend**
+
+
+    cd /backend
+    cp .env.example .env
+    nano .env
+ 
+>Изменить значения DB_USERNAME и DB_PASSWORD на личные данные.<br/>
+Рекомендуется использовать локальный IP-адрес вместо 127.0.0.1. Например: 192.168.1.3<br/>
+Изменить значение APP_URL на адрес вашего сайта, например: rasp.noskolagrokol.ru<br/>
+Для параметра APP_KEY, придумайте уникальную последовательность из 32 символов. Пример: 0P5GD70N7y5ggkbOkCLBqIZeoJT5bc==<br/>
+Укажите ваше доменное имя в параметре SESSION_DOMAIN, например: .noskolagrokol.ru<br/>
+Включите свой сайт и поддомен API в SANCTUM_STATEFUL_DOMAINS, например: raspapi.noskolagrokol.ru, rasp.noskolagrokol.ru<br/>
+
+**4. Настроить файл окружения .env в frontend**
+
+    cd ..
+    cd /frontend
+    cp .env.example .env
+    nano .env
+>Добавьте в VITE_API_URL ссылку на ваш API (backend) сайта. Например: https://raspapi.noskolagrokol.ru.
+
+**5. Настроить файл окружения .env в корневом файле**
+
+    cd ..
+    cp .env.example .env
+    nano .env
+>Изменить значения для параметров DB_USERNAME и DB_PASSWORD, чтобы они соответствовал данным в файле backend.
+
+**6. Сборка и запуск контейнера**
+
+    cd..
+    docker-compose -f docker-compose.prod.yml up -d --build
+>Подключитесь к контейнеру php-fpm (docker exec -it название_контейнера bash) и выполните миграцию (только при первом развертывании):
+
+    php artisan migrate --seed
+**7. Вход в систему**
+>Приложение будет доступно на порту, указанном в docker-compose.prod.yml. <br/>Чтобы войти в админ-панель, добавьте к адресу /admin/login. Логин и пароль по умолчанию:
+
+    admin@mail.ru
+    123123
