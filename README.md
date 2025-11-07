@@ -8,6 +8,8 @@
 
 Исходный проект расписании был взят с Рязанского Колледжа Электроники. (Автор **[@GreenBabyBorn](https://github.com/GreenBabyBorn/sposchedule)**)
 
+Большая благодарность за помощь ребятам [@AverageDragonTail](https://github.com/AverageDragonTail) и [@motionarium](https://github.com/motionarium)
+
 ## Технологии
 
 ### Frontend
