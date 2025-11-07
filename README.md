@@ -85,3 +85,14 @@
 
     admin@mail.ru
     123123
+
+## Настройка через NPM (Nginx Proxy Manager)
+
+> При настройке Frontend и Backend через Nginx Proxy Manager настоятельно рекомендуется указать параметры **SANCTUM_STATEFUL_DOMAINS** и **SESSION_DOMAIN** на этапе первоначальной настройки. Кроме того, в настройках NPM необходимо добавить следующие параметры:
+
+    proxy_set_header X-XSRF-TOKEN $cookie_XSRF_TOKEN;
+    proxy_set_header Host              $host;
+    proxy_set_header X-Forwarded-Host  $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+<img width="520" height="633" alt="изображение" src="https://github.com/user-attachments/assets/368b36e2-d4c3-4d8e-b578-d0d8ab553506" />
