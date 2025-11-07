@@ -1,10 +1,6 @@
 # SPOSCHEDULE - СПОРасписание (nokschedule)
 <img width="1902" height="929" alt="изображение" src="https://github.com/user-attachments/assets/1f118476-6ec0-43fa-beb8-80ec69e43aa5" />
-<img width="1897" height="944" alt="изображение" src="https://github.com/user-attachments/assets/109e08c3-795f-4f05-acb9-9ba866c25fbd" />
-
-
-
-
+<img width="1900" height="933" alt="изображение" src="https://github.com/user-attachments/assets/2bf2b9c7-dca9-48d1-a604-b8cb35975f2e" />
 
 ## Описание проекта
 
@@ -15,27 +11,6 @@
 Исходный проект расписании был взят с Рязанского Колледжа Электроники. (Автор **[@GreenBabyBorn](https://github.com/GreenBabyBorn/sposchedule)**)
 
 Большая благодарность за помощь ребятам [@AverageDragonTail](https://github.com/AverageDragonTail) и [@motionarium](https://github.com/motionarium)
-
-## Технологии
-
-### Frontend
-
-- **HTML5, CSS3, JavaScript/TypeScript** — для разработки пользовательского интерфейса.
-- **Vue 3** — динамическое взаимодействие с пользователем, поддержка реактивных данных.
-- **PrimeVue** — UI библиотека готовых компонентов.
-- **TailwindCSS** — CSS-фреймворк.
-- **TanStack Query v5** — для управления асинхронным состоянием приложения
-
-### Backend
-
-- **PHP (Laravel 11)** — серверная логика и API.
-- **PostgreSQL** — база данных для хранения информации.
-- **Docker** — контейнеризация приложения для упрощения развертывания.
-
-### DevOps
-
-- **Docker Compose** — для развертывания приложения.
-
 
 ## Лицензия
 
