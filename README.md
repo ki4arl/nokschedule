@@ -28,7 +28,6 @@
 
 ### DevOps
 
-- **GitLab** — для CI/CD.
 - **Docker Compose** — для развертывания приложения.
 
 
