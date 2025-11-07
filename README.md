@@ -44,7 +44,7 @@
 
     cd /nokschedule
 
-**3. Настроить файл окружения .env в backend**
+**3. Настройка файла окружения .env для backend**
 
 
     cd /backend
@@ -58,7 +58,7 @@
 Укажите ваше доменное имя в параметре SESSION_DOMAIN, например: .noskolagrokol.ru<br/>
 Включите свой сайт и поддомен API в SANCTUM_STATEFUL_DOMAINS, например: raspapi.noskolagrokol.ru, rasp.noskolagrokol.ru<br/>
 
-**4. Настроить файл окружения .env в frontend**
+**4. Настройка файла окружения .env для frontend**
 
     cd ..
     cd /frontend
@@ -66,7 +66,7 @@
     nano .env
 >Добавьте в VITE_API_URL ссылку на ваш API (backend) сайта. Например: https://raspapi.noskolagrokol.ru.
 
-**5. Настроить файл окружения .env в корневом файле**
+**5. Настройка файла окружения .env для корневого файла**
 
     cd ..
     cp .env.example .env
