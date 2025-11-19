@@ -1,4 +1,4 @@
-# nokschedule - Расписание Новоскольского колледжа
+# nokschedule - Расписание Новооскольского колледжа
 <img width="1902" height="929" alt="изображение" src="https://github.com/user-attachments/assets/1f118476-6ec0-43fa-beb8-80ec69e43aa5" />
 <img width="1900" height="933" alt="изображение" src="https://github.com/user-attachments/assets/2bf2b9c7-dca9-48d1-a604-b8cb35975f2e" />
 
